@@ -44,8 +44,7 @@ namespace ConsoleApp_Linq.LinqClasses
 
         public override void SqlSyntax(List<Customer> customers)
         {
-            TextHelper.ShowSqlText();
-            //How to do the paging here? 
+            
         }
     }
 }

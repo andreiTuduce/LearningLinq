@@ -39,18 +39,23 @@ namespace ConsoleApp_Linq
 
             #region Ordering
 
-            Ordering ordering = new Ordering();
+            //Ordering ordering = new Ordering();
 
-            ordering.CodeSyntax(customers);
+            //ordering.CodeSyntax(customers);
 
             #endregion
 
-            Grouping grouping = new Grouping();
-            grouping.LinqSyntax(customers);
+            #region Grouping
 
+            //Grouping grouping = new Grouping();
+            //grouping.LinqSyntax(customers);
+            //grouping.SqlSyntax(customers);
+            //grouping.CodeSyntax(customers);
+
+            #endregion
             Console.ReadKey();
             /*
-             Any, Average, Cast, Distinct, GroupBy, Join,
+             Any, Average, Cast, Distinct, Join,
             Max, Min, SkipWhile, Sum, Take-While, 
             */
         }
