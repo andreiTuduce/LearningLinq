@@ -12,6 +12,7 @@ namespace ConsoleApp_Linq
         static void Main(string[] args)
         {
             List<Customer> customers = Customers.CustomerList;
+            List<Product> products = Products.ProductList;
 
             #region AllClause
 
@@ -51,6 +52,13 @@ namespace ConsoleApp_Linq
             //grouping.LinqSyntax(customers);
             //grouping.SqlSyntax(customers);
             //grouping.CodeSyntax(customers);
+
+            #endregion
+
+            #region SkipWhile
+
+            SkipWhile skipWhile = new SkipWhile();
+            skipWhile.LinqSyntax(products);
 
             #endregion
             Console.ReadKey();

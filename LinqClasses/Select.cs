@@ -5,7 +5,7 @@ using Try101LinqSamples;
 
 namespace ConsoleApp_Linq.LinqClasses
 {
-    public class Select : IClausesCustomer
+    public class Select : AbstractClausesCustomer
     {
         public override void CodeSyntax(List<Customer> customers)
         {

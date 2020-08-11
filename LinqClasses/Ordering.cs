@@ -6,7 +6,7 @@ using Try101LinqSamples;
 
 namespace ConsoleApp_Linq.LinqClasses
 {
-    public class Ordering : IClausesCustomer
+    public class Ordering : AbstractClausesCustomer
     {
         public override void CodeSyntax(List<Customer> customers)
         {

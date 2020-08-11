@@ -5,7 +5,7 @@ using Try101LinqSamples;
 
 namespace ConsoleApp_Linq.LinqClasses
 {
-    public class Paging : IClausesCustomer
+    public class Paging : AbstractClausesCustomer
     {
         public int SkipCount { get; set; }
 

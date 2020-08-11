@@ -4,7 +4,7 @@ using Try101LinqSamples;
 
 namespace ConsoleApp_Linq.LinqClasses
 {
-    public class Grouping : IClausesCustomer
+    public class Grouping : AbstractClausesCustomer
     {
         public override void CodeSyntax(List<Customer> customers)
         {
